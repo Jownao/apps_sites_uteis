@@ -4,6 +4,7 @@
 
 ## Sites  
 * [Quillbot](https://quillbot.com/)  - Escreve texto de maneira diferente
-* [Cleanup.pictures](https://cleanup.pictures/) - Remove algo desejado da foto com IA  
+* [Cleanup.pictures](https://cleanup.pictures/) - Remove algo desejado da foto com IA
+* [ShortlyAI](https://www.shortlyai.com/) - Redige texto baseado no assunto com IA
 ## Progamas  
 * [TaskBarX](https://github.com/ChrisAnd1998/TaskbarX) - Opções adicionas para barra de ferramentas (Hotbar)
