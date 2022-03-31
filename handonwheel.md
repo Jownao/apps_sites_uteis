@@ -4,8 +4,21 @@
 	- Conceito
 - Tipos de ferramenta
   * Ferramentas generalistas - breve
+  	* Softwares que podem processar, simular, analisar amostras, gerar dados
+estatísticos, sumarizar, apontar duplicidade e outras funções que o auditor
+desejar.
   * Ferramentas especializadas - breve
+ 	 * Softwares desenvolvidos especialmente para executar certas tarefas em
+uma circunstância definida. O software pode ser desenvolvido pelo próprio
+auditor, pelos especialistas da empresa auditada ou por um terceiro contratado
+pelo auditor. 
   * Ferramentas de utilidade geral - breve
+ 	 * Ferramentas de utilidade geral são
+softwares utilitários utilizados para executar algumas funções muito comuns de
+processamento, como sortear arquivos, sumarizar, concatenar, gerar relatórios
+etc. Esses programas não foram desenvolvidos para executar trabalhos de
+auditoria, portanto, não tem recursos tais como verificação de totais de controles,
+ou gravação das trilhas de auditoria.
 
 # 2 slide
 - Ferramentas escolhidas  
