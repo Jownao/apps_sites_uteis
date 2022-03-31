@@ -1,0 +1,167 @@
+group: Academico
+
+Disciplinas = { cod_disc, nom_disc, qtd_creditos
+'F100374','RESISTÊNCIA DOS MATERIAIS III','2'
+'F100382','MECÂNICA DOS SOLOS II','2'
+'F100390','PAVIMENTAÇÃO E TERRAPLANAGEM','2'
+'F100404','HIDROLOGIA','2'
+'F100412','PLANEJAMENTO E ORÇAMENTO DE OBRAS','4'
+'F100420','ANÁLISE DAS ESTRUTURAS II','4'
+'F102121','CÁLCULO NUMERICO','4'
+'F102245','TÓPICOS ESPECIAIS EM SISTEMAS DE INFORMAÇÃO','4'
+'F102253','ESTÁGIO SUPERVISIONADO EM SISTEMAS DE INFORMAÇÃO','10'
+'F102261','QUÍMICA GERAL INORGÂNICA','2'
+'F102270','LINGUAGEM DE DESENVOLVIMENTO','2'
+'F102288','CIÊNCIA E TECNOLOGIA DOS MATERIAIS','2'
+'F102296','RESISTEÊNCIA DOS MATERIAIS III','4'
+'F105457','DESENVOLVIMENTO SEGURO','2'
+'F105465','EXPERIÊNCIA EXTENSIONISTA IV','2'
+'F105910','CÁLCULO DIFERENCIAL E INTEGRAL II','4'
+'F105929','MECÂNICA DOS SOLOS I','4'
+'F105937','SANEAMENTO I','4'
+'F105945','INSTALAÇÕES PREDIAIS','4'
+'F105953','ESTRUTURAS DE AÇO E MADEIRA','4'
+}
+
+
+Professores = {cod_prof, nom_prof
+'899998','GILTON KENNEDY SOUZA FRAGA'
+'801508','ALMIR DE OLIVEIRA ACILOY GUEDES'
+'801514','Natália GOMES ALVES DE Herculano'
+'801509','Maria CAROLINA VILHALBA SOUZA LEITE'
+'801510','BRUNO MARTINS DA SILVA'
+'801366','JOSE WIBSON DA SILVA'
+'800989','INACIO BATISTA DE FRANCA'
+'017233','GEICIANE DE ANDRADE AZEVEDO'
+'800251','GEICIANE DE ANDRADE AZEVEDO'
+'017978','JOEBSON SILVA DE OLIVEIRA'
+'800604','JAQUELINE Ana MACHADO PAZ'
+'801285','PAULO ROBERTO DE ALMEIDA SANTOS'
+'801346','Ivan MESSIAS DO NASCIMENTO'
+'801333','PRISCILA DE OLIVEIRA NASCIMENTO'
+'801543','WILLIAMS RODRIGO MENDES DE LIMA'
+'800821','ELIENAY Ana CRISTINA DA SILVA'
+'800019','ANDREA CARINA NAVAMUEL DA SILVA'
+'800032','VALERIA DE LUNA MATOS'
+'800143','IRACENI Ana DOS SANTOS SILVA'
+'017383','AMANDA OLIVEIRA BERNARDINO Almeida DE ALBUQUERQUE'
+'017382','DENIZE FERREIRA RIBEIRO'
+'017212','EDVANIA Ana DA SILVA'
+'017307','AMILTON ROBERTO DE OLIVEIRA Filho'
+'017306','MICHELINE Ana AGUIAR DE OLIVEIRA CARDOSO'
+'017366','JOAO RICARDO Loureiro DA SILVA'
+'017325','NEWTON ANTONIO DE ARAUJO XAVIER'
+'017347','ENJOLRAS DE ALBUQUERQUE MEDEIROS LIMA'
+'017348','JOAO RIBEIRO DE CARVALHO'
+'017401','DIOGO Almeida GALVAO'
+'017398','JONAS DA SILVA Belinatti'
+}
+
+
+Cursos = {cod_curso, nom_curso, turno, cod_prof
+'843','Engenharia Civil','N','017978'
+'851','Fisioterapia','N','017249'
+'864','Bacharelado em Serviço Social','N','009801'
+'867','Psicologia','N','017271'
+'808','Biomedicina','M','017259'
+'811','Direito','N','018457'
+'870','Análise e Desenvolvimento de Sistemas','T','017364'
+'822','Radiologia','M','009801'
+'850','Fisioterapia','M','017249'
+'809','Biomedicina','N','017259'
+'810','Direito','M','018457'
+'815','Estética e Cosmética','M','017249'
+'818','Odontologia','M','017335'
+'819','Odontologia','N','017335'
+'849','Engenharia Mecatrônica','N','017978'
+'824','Radiologia','N','009801'
+'860','Nutrição', 'M','801447'
+'861','Nutrição','N','017249'
+'871','Análise e Desenvolvimento de Sistemas','M','017364'
+'804','Administração','N','017978'
+'814','Estética e Cosmética','M','017249'
+'812','Enfermagem','M','017271'
+'813','Enfermagem','N','017271'
+}
+
+Alunos = {matricula_aluno, nome_aluno, endereco_aluno, valor_parc, valor_desconto, codigo_curso
+'1172309016','Roberto Luiz Moreira','R Sta Gertrudes, 139',760,0,'803'
+'2112312248','Dayane Vanessa dos Santos Cunha Leandro','Rua Aracaji-220',760,20,'804'
+'1202305528','SuzMaria Mendes Nunes','Rua Cinco 457 Casa 2 J',760,0,'804'
+'1211307155','Bruno Marcelo de Melo Gonçalves','R S Mateus 0583 Bl B Ap 404',760,0,'804'
+'1211304466','JuliMaria Rosa de Oliveira','R Camboriu N 233',760,0,'804'
+'1211307180','Jacira Scarlet Gomes','Av Vasco Rodrigues N161 Bl e Apt7',760,0,'804'
+'1211307511','Maximo Daniel da Silva','Av. Murilo Dantas, 300',760,0,'804'
+'1181324626','Diego Morais Ananias','R João P de Barros , 168',760,0,'804'
+'1181323727','Suelen Eline Xavier de Lima','Rua Professor Caldas Filho, 107',760,0,'804'
+'1211303656','Ivan Diego Ferreira Rodrigues','3ª Tv Resplendor N 882',760,0,'804'
+'1181319819','Milane dos Santos Silva','R At Jd Progresso 1350',760,0,'840'
+'1181322658','Tayane Cristina da Silva Campelo','R Rosalândia 79',760,63,'840'
+'1182313156','Vanessa Gonçalves da Silva','R Colorado 15',760,0,'841'
+'1182307210','Jonathas Lemos Belinatti de Souza','R Malmequer 61',760,0,'841'
+'1181305702','Alicia LaiMaria Vasconcellos da Silva','R Costa Ribeiro 53',760,100,'841'
+'1172306610','Talissa Cecília Barreto Sena','Rua Vasco da Gama, 500',760,0,'841'
+'1181321317','MariMaria do Monte da Silva','R Luislândia 79',760,0,'841'
+'1191310300','Ester Cristina de Freitas Gomes','Crg do Inácio 182a',760,0,'841'
+'1201316500','Jéssica Ana de Melo','R João M de L Filho Nº 12',760,0,'841'
+'1202306990','Bruna Gabriele Farias da Silva','R Napoleão G Lobo , 186',760,0,'841'
+'1171312552','Henrique Dantas Belinatti Filho','Av S José Batista 318 Apto 101',760,50,'843'
+'1171313532','João Roberto Ramos Rocha Segundo','Rua Artur Orlando N 93',760,0,'843'
+'1211301246','Landelino Coutinho de Sousa','Rua Sen Pinheiro Ramos N102',760,0,'843'
+'1161320765','Clodoaldo Gomes de Paula','R Célia 245',760,0,'843'
+'1162310097','Maria Claudia Almeida de Herculano','Rua Teixeira Coimbra, 269',760,0,'843'
+'1171314580','Isaias de Souza Rodrigues','R Prf Souto Maior , Nº 54, Apt 2603',760,0,'849'
+}
+
+Turmas = {codigo_turma, codigo_disc, codigo_prof
+'001','H109280','17223'
+'002','H109328','17244'
+'003','H109387','17283'
+'004','H110571','17335'
+'005','H113678','17994'
+'006','B103182','17992'
+'007','B104456','17358'
+'080','B106807','17267'
+'081','B107641','17436'
+'082','B107773','17329'
+'083','H112140','17227'
+'084','F102296','17366'
+'085','B100701','17255'
+'086','B101554','17271'
+'087','H113635','17994'
+'088','H113708','17411'
+'089','H113740','18262'
+'090','B103190','17565'
+'091','B103662','17293'
+'092','B104219','18044'
+'093','B104383','17381'
+'094','B105606','17259'
+'095','F105147','17364'
+'096','F105163','18098'
+}
+
+Matriculas = {matricula_aluno, codigo_turma, codigo_disc, nota1, nota2, nota3, faltas1, faltas2, faltas3
+'1191310199','083','H114119',3,3,3,0,0,0
+'1191310180','080','H111080',9,9,9,0,0,0
+'1171312552','005','F102296',6,6,6,0,0,0
+'1181321287','005','F102296',7,7,7,0,0,0
+'1192305725','125','F100072',7,7,7,0,0,0
+'1201315678','028','F100366',8,8,8,0,0,0
+'1161300497','094','F100242',9,9,9,0,0,0
+'1161301159','096','F102296',6,6,6,0,0,0
+'1161315206','025','F100439',7,7,7,0,0,0
+'1162310097','019','F100510',9,9,9,0,0,0
+'1171302212','061','H113040',6,6,6,0,0,0
+'1162306588','034','F100218',9,9,9,0,0,0
+'1191306795','016','F100544',7,7,7,0,0,0
+'1162305115','058','F100501',9,9,9,0,0,0
+'1162305115','055','F100552',10,10,10,0,0,0
+'1151318067','101','F100358',9,9,9,0,0,0
+'1161315672','087','F100439',6,6,6,0,0,0
+'1161315672','016','F102296',7,7,7,0,0,0
+'1202305480','084','F100528',7,7,7,0,0,0
+'1191301645','088','F100897',8,8,8,0,0,0
+'1181325800','103','F102539',6,6,6,0,0,0
+'1191311756','080','F104841',7,7,7,0,0,0
+'1191311756','092','F104868',9,9,9,0,0,0
+}

@@ -1,0 +1,22 @@
+1- π Alunos.matricula_aluno, Alunos.nome_aluno, Alunos.endereco_aluno ( σ Alunos.codigo_curso = '843' (Alunos ⨯ Cursos))
+
+2- π Alunos.matricula_aluno, Alunos.nome_aluno, Alunos.valor_desconto ( σ Alunos.valor_desconto > 0 (Alunos))
+
+3- π Cursos.cod_curso, Cursos.nom_curso, Professores.nom_prof ( σ Cursos.cod_prof = Professores.cod_prof (Cursos ⨯ Professores))
+
+Primeira nota maior que 5 (descobrir como somar as notas)
+4- π Alunos.matricula_aluno, Alunos.nome_aluno, Cursos.nom_curso ( σ Matriculas.nota1>5 (Alunos ⨯ Cursos ⨯ Matriculas))
+
+5 - 
+
+
+Disciplinas = { cod_disc, nom_disc, qtd_creditos
+'F102296','RESISTEÊNCIA DOS MATERIAIS III','4'
+
+Turmas = {codigo_turma, codigo_disc, codigo_prof
+'084','F102296','17366'
+
+Matriculas = {matricula_aluno, codigo_turma, codigo_disc, nota1, nota2, nota3, faltas1, faltas2, faltas3
+'1171312552','005','F102296',6,6,6,0,0,0
+
+017978
