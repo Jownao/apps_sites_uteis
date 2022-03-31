@@ -2,6 +2,12 @@
 # 1 slide
 - Ferramenta de auditoria
 	- Conceito
+		- As ferramentas de auditoria,
+portanto, são instrumentos que o auditor possui para atingir suas metas, definidas
+no planejamento de auditoria, independente do tipo de auditoria praticada.
+As ferramentas de auditoria podem ser classificadas em generalistas,
+especializadas e de utilidade geral. Essas categorias são apresentadas a seguir.
+
 - Tipos de ferramenta
   * Ferramentas generalistas - breve
   	* Softwares que podem processar, simular, analisar amostras, gerar dados
