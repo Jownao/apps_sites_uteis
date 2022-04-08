@@ -6,5 +6,7 @@
 * [Quillbot](https://quillbot.com/)  - Escreve texto de maneira diferente
 * [Cleanup.pictures](https://cleanup.pictures/) - Remove algo desejado da foto com IA
 * [ShortlyAI](https://www.shortlyai.com/) - Redige texto baseado no assunto com IA
+* [Pixelhunter](https://pixelhunter.io/) - recorta uma imagem no formato de todas redes sociais
+* [N arcade](https://n-arcade.io/) - jogos de arcade para navegador
 ## Progamas  
 * [TaskBarX](https://github.com/ChrisAnd1998/TaskbarX) - Opções adicionas para barra de ferramentas (Hotbar)
